@@ -41,7 +41,7 @@ sidebar, topbar, favicon 등등 해야될 작업들이 수두룩하지만 앞으
 
 정상적으로 이미지가 업로드 된것을 확인할 수 있다.
 
-### 깃허브 ISSUE 활용하기
+### 깃허브 ISSUEs 활용하기
 
 github page에 이미지를 업로드하는 다른 방법으로 [issues](https://github.com/dailybetter/dailybetter.github.io/issues) 를 활용하는 방법이 있다
 - issues는 본래 project를 진행하며 발생하는 모든 이슈들을 뜻합니다. ex. 버그 발생, 개발, 풀 리퀘스트 등등..
