@@ -11,7 +11,7 @@ tags:
 date: 2022-03-29
 published: true
 ---
-오늘은 github pages에 이미지를 삽입하는 방법을 배워보고 실제로 적용해보도록 하자
+오늘은 github pages에 이미지를 삽입하는 방법을 배워보고 실제로 적용해보도록 하자!
 
 ##서론
 sidebar, topbar, favicon 등등 해야될 작업들이 수두룩하지만 앞으로 진행항 작업들의 진행상황과 
@@ -28,9 +28,9 @@ sidebar, topbar, favicon 등등 해야될 작업들이 수두룩하지만 앞으
 
 문서에 따른 업로드 방법은 아래와 같다.
 
-'''
+```
 ![Some Img](/images/images)
-'''
+```
 
 이미지의 이름과 그 위치를 적으면 되는것 같으니 우선 해보도록하겠다.
 ![testimg](/assets/images/iconic.png)
