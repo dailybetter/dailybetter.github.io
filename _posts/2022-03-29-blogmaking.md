@@ -37,5 +37,21 @@ sidebar, topbar, favicon 등등 해야될 작업들이 수두룩하지만 앞으
 
 
 이미지의 이름과 그 위치를 적으면 되는것 같으니 우선 해보도록하겠다.
-![testimg](/assets/images/iconic.png)
+![testimg](/assets/images/iconic.png){: width="50%" height="50%"}</center>
 
+정상적으로 이미지가 업로드 된것을 확인할 수 있다.
+
+### 깃허브 ISSUE 활용하기
+
+github page에 이미지를 업로드하는 다른 방법으로 [issues](https://github.com/dailybetter/dailybetter.github.io/issues) 를 활용하는 방법이 있다
+- issues는 본래 project를 진행하며 발생하는 모든 이슈들을 뜻합니다. ex. 버그 발생, 개발, 풀 리퀘스트 등등..
+- 그리고 이런것들을 효율적으로 관리하고자 존재하는것이 issues 탭이죠
+- 위 링크를 통해 직접 들어가보면 어떤 기능인지 쉽게 알 수 있습니다.
+**그럼 어떻게 issues를 이용해서 img를 업로드 할까요**
+방법은 매우 간단합니다.
+1. Issues탬에 가서 New issues를 누릅니다![issues](https://user-images.githubusercontent.com/101924720/160527482-15b94972-b3fb-43eb-8d67-3af620a40970.png){: width="50%" height="50%"}
+2. 이미지 파일을 textbox에 드래그 앤 드롭 하거나 붙여넣습니다.
+3. 마크다운 문법으로 자동 생성된 이미지 주소를 복사하여 md파일에 붙여넣습니다.
+**끝**
+
+- 이는 이미지가 쌓여갈수록 repo가 무거워지는것을 방지할 수 있는 장점이 있지만 정식적인 방법은 아니라고 생각된다
