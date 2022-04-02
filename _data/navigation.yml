@@ -7,7 +7,7 @@ main:
           url: /about/
   - title: "Category"
           url: /categories/
-  - title: "Tags"
+  - title: "tags"
           url: /tags/
   - title: "Home"
       url: index.html
