@@ -10,7 +10,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "HyunWoo Park"
 description              : "매일 조금씩."
 url                      : "https://dailybetter.github.io"
-baseurl                  : # "https://dailybetter.github.io"
+baseurl                  : #
 repository               : "dailybetter.dailybetter.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
