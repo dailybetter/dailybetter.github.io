@@ -4,7 +4,8 @@ title:  "Github pages 만들기01-이미지 삽입"
 excerpt: "이미지를 삽입하는 여러가지 방법"
 
 categories:
-- Github Blog
+- [Github Blog]
+
 tags:
 - [Blog, jekyll, Github, Git]
 

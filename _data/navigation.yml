@@ -9,5 +9,5 @@ main:
     url: /tags/
   - title: "Home"
     url: index.html
- #- title: "Category"
- #   url: /categories/
+ - title: "Category"
+    url: /categories/
