@@ -278,3 +278,6 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Google_Analytics
+google_analytics: 'G-JBE5D5X7R3'
