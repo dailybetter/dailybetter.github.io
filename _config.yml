@@ -19,7 +19,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 future                   : true
 words_per_minute         : 200
-comments                 : true
+comments:
   provider               : "disqus"
   disqus:
     shortname            : "dailybetter"
@@ -275,7 +275,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
 
