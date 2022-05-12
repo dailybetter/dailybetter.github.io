@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dailybetter.github.io/sitemap.xml
+Sitemap: https:/dailybetter.github.io/sitemap.xml
