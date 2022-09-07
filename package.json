@@ -1,6 +1,6 @@
 {
   "name": "minimal-mistakes",
-  "private": true,
+  "private": false,
   "version": "4.24.0",
   "description": "Minimal Mistakes 2 column Jekyll theme.",
   "repository": {
