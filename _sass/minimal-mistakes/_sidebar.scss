@@ -121,11 +121,11 @@
    Author profile and links
    ========================================================================== */
 
-.author__avatar {
+.author__avatar { //프로필 사진 css 수정 
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
 
   @include breakpoint($large) {
     display: block;
@@ -135,11 +135,11 @@
 
   img {
     max-width: 110px;
-    border-radius: 50%;
+    border-radius: 30%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 3px;
+      border: 2px solid $border-color;
     }
   }
 }
