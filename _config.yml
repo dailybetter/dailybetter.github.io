@@ -84,7 +84,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -93,10 +93,10 @@ analytics:
 # Site Author
 author:
   name             : "HyunWoo Park"
-  avatar           : "/assets/images/profile.png" #사진 변경0907
+  avatar           : "/assets/images/profile.png" #사진 변경0928
   bio              : "매일 조금씩 발전하는 개발 블로그🌱"
-  location         : "Somewhere"
-  email            :
+  location         : "SSAFY"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -109,7 +109,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://github.com/dailybetter"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
