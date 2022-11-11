@@ -4,7 +4,7 @@ title:  "var, let, const"
 excerpt: "JavaScript 변수"
 
 categories:
-- Github Blog
+- JavaScript
 
 tags:
 - [JavaScript, variable, var, let, const]

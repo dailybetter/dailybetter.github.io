@@ -4,7 +4,7 @@ title:  "React란 무엇일까?"
 excerpt: "React의 개념과 NodeJs"
 
 categories:
-- Github Blog
+- React
 
 tags:
 - [React, vite]
