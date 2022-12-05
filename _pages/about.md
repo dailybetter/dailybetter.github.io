@@ -1,7 +1,7 @@
 ---  
 title: "About Daily Better"
 permalink: /about/
-layout: single
+layout: wide
 header:
 overlay_image: /assets/Images/main-teaser.jpg
 overlay_filter: 0.5
