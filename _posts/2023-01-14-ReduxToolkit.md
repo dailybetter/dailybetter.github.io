@@ -41,3 +41,77 @@ published: false
 위의 글은 Dan Abranov에 글에서 발췌한 부분입니다.
 
 다시 한번 정리해 보면 리덕스는 redux-saga, redux-thunk 등 다양한 추가 라이브러리를 통해 조금 더 세밀한 상태관리가 가능하고 정교한 프로그래밍을 가능하게 합니다.
+
+## Redux-toolkit 사용법(typescript)
+
+1. Root State & Dispath Types
+   ​
+
+```typescript
+import { configureStore } from "@reduxjs/toolkit";
+// ...
+export const store = configureStore({
+  reducer: {
+    posts: postsReducer,
+    //슬라이스 예시
+  },
+});
+// RootState에 대한 타입 지정
+export type RootState = ReturnType<typeof store.getState>;
+// dispatch에 대한 타입 지정
+export type AppDispatch = typeof store.dispatch;
+```
+
+2. Hooks에 대한 타입 지정
+   ​
+
+```typescript
+import { useDispatch, useSelector } from "react-redux";
+import type { TypedUseSelectorHook } from "react-redux";
+import type { RootState, AppDispatch } from "./store";
+// app내에서 useAppDispatch나 Selector를 사용할때 타입을 지정해줘야 하므로 전역적으로 타입을 지정해준다.
+export const useAppDispatch: () => AppDispatch = useDispatch;
+export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
+```
+
+3. Slice 생성 Action Types 지정
+
+```typescript
+import { createSlice } from "@reduxjs/toolkit";
+import type { PayloadAction } from "@reduxjs/toolkit";
+import type { RootState } from "../../app/store";
+// 슬라이스 타입 지정
+interface CounterState {
+  value: number;
+}
+// Define the initial state using that type
+const initialState: CounterState = {
+  value: 0,
+};
+export const counterSlice = createSlice({
+  name: "counter",
+  // `createSlice` will infer the state type from the `initialState` argument
+  initialState,
+  reducers: {
+    //action예시
+    incrementByAmount: (state, action: PayloadAction<number>) => {
+      state.value += action.payload;
+    },
+  },
+});
+export const { increment, decrement, incrementByAmount } = counterSlice.actions;
+// Other code such as selectors can use the imported `RootState` type
+export default counterSlice.reducer;
+```
+
+​
+
+### RTX 동작과정
+
+![RTX동작과정](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-explained-1300w.png)
+
+### Custom Hook
+
+​
+반복되는 로직을 줄이고 컴포넌트를 재사용하기 위해 커스텀훅이 필요한 상황이 발생한다.
+커스텀 훅을 사용하는 컴포넌트마다 커스텀 훅이 가지는 State와 Effect는 완전히 독립적이다.
