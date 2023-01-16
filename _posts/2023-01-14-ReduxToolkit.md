@@ -10,7 +10,7 @@ tags:
   - [React, Redux, Redux-toolkit]
 
 date: 2023-01-14
-published: false
+published: true
 ---
 
 ## Redux란?
