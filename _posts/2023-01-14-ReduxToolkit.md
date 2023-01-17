@@ -27,7 +27,7 @@ published: true
 
 ## 왜 Redux 일까?
 
-- ContextAPI와의 비교
+> ContextAPI와의 비교
 
 리덕스와 ContextAPI는 궁극적으로 같은 기능을 수행하기 때문에 동작 과정에서도 닮은 부분이 많습니다.
 하지만 리덕스는 Context API와 달리 전역 상태 관리 이 외에도 다양한 기능을 제공하고 이로 인해 더 정교한 작업이 가능합니다. 이런 정교한 작업과정은 TDD에 더 유리한 결과를 환경을 제공합니다.
@@ -41,6 +41,17 @@ published: true
 위의 글은 Dan Abranov에 글에서 발췌한 부분입니다.
 
 다시 한번 정리해 보면 리덕스는 redux-saga, redux-thunk 등 다양한 추가 라이브러리를 통해 조금 더 세밀한 상태관리가 가능하고 정교한 프로그래밍을 가능하게 합니다.
+
+## Redux-toolkit은 뭘까?
+
+Redux-toolkit(이하 RTX)은 Redux에서 공식 제공하는 라이브러리입니다.
+리덕스에서 이처럼 추가적인 라이브러리를 제공하는 이유는 무엇일까요?
+
+1. 리덕스는 저장소 구성이 복잡합니다.
+2. 리덕스는 immer, reselector, thunk 등 필요에 따라 다른 패키지들을 필요로 하기때문에 의존성에 취약점을 갖습니다.
+3. 작업을 진행 할 때 작성해야 할 코드의 양이 비교적 많습니다.
+
+이러한 점들을 보완하고자 rtx가 존재합니다.
 
 ## Redux-toolkit 사용법(typescript)
 
@@ -109,9 +120,3 @@ export default counterSlice.reducer;
 ### RTX 동작과정
 
 ![RTX동작과정](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-explained-1300w.png)
-
-### Custom Hook
-
-​
-반복되는 로직을 줄이고 컴포넌트를 재사용하기 위해 커스텀훅이 필요한 상황이 발생한다.
-커스텀 훅을 사용하는 컴포넌트마다 커스텀 훅이 가지는 State와 Effect는 완전히 독립적이다.
