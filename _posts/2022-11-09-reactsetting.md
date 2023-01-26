@@ -1,18 +1,17 @@
 ---
 layout: single
-title: "React란 무엇일까?"
+title:  "React란 무엇일까?"
 excerpt: "React의 개념과 NodeJs"
 
 categories:
-  - React
+- React
 
 tags:
-  - [React, vite]
+- [React, vite]
 
 date: 2022-11-9
 published: true
 ---
-
 ## React 란 무엇인가?
 
 리액트를 학습하기 앞서 리액트라는 라이브러리가 왜 만들어졌는지 알아보자!
@@ -22,17 +21,16 @@ JavaScript를 사용하여 HTML로 구성한 UI를 제어해본경험이 있다�
 
 하지만 리액트는 위의 것들과 조금 다른 발상에서 만들어졌다. 리액트는 기존 DOM을 수정, 업데이트 하는 방식이 아닌 메모리에 가상으로 존재하는 Virtual DOM을 만들어서 보여줌으로서 기존 방식보다 훨씬 빠른 서비스를 제공한다.
 
+
 ## React 초기 설정 방법
 
 1. NodeJs 설치
-   - [nodejs 홈페이지](https://nodejs.org/ko/download/)에서 버전 선택 후 다운로드
+    - [nodejs 홈페이지](https://nodejs.org/ko/download/)에서 버전 선택 후 다운로드
 2. 터미널을 통해 'npx create-react-app app이름' 입력
 
 3. 끝!
 
 리액트를 setup 할 수 있는 방법은 여러가지라서 본인이 필요로 하는 방법에 맞춰 setup하는 것이 좋다.
-
-<a href="https://reactjs-kr.firebaseapp.com/docs/installation.html" target="_blank">리액트 공식문서에서의 설치</a>
 
 ### NodeJs를 설치하는 이유
 
