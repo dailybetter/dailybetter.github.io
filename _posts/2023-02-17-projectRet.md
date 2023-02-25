@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "프로젝트 회고(1)"
-excerpt: "한편의 소설같은 비대면 상담 프로젝트 회고"
+excerpt: "비대면 상담 프로젝트 회고"
 
 categories:
   - Retrospective
