@@ -22,6 +22,8 @@ overlay_filter: 0.5
 아직 부족하지만 언젠가 Front-End 개발자가 되어 **더 나은 세상을 만드는 일**을 하겠습니다.
 <br>
 
-### [👨‍💻RESUME](https://fabulous-bed-afc.notion.site/601b28463e824b8f95942677423b643b)
+### [🍀PORTFOLIO](https://fabulous-bed-afc.notion.site/601b28463e824b8f95942677423b643b)
 
-<!-- <h1>박현우|Resume</h1> -->
+<br>
+
+### [👨‍💻RESUME](https://fabulous-bed-afc.notion.site/601b28463e824b8f95942677423b643b)
